@@ -1,0 +1,26 @@
+{
+  "name": "messaging-app-backend",
+  "version": "1.0.0",
+  "description": "Messaging App",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/franklinscripts/Chat-App.git"
+  },
+  "author": "Franklin & Friends",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/franklinscripts/Chat-App/issues"
+  },
+  "homepage": "https://github.com/franklinscripts/Chat-App#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^6.10.0",
+    "nodemon": "^2.0.20"
+  }
+}
